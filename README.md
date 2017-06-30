@@ -23,9 +23,9 @@
 ---
 ## STEP2 :two:
 
-### TODO List
-- [] Component
-- [] Props
-- [] State
-- [] ...
+### TODO LIST
+- [ ] Component
+- [ ] Props
+- [ ] State
+- [ ] ...
 
