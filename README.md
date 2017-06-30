@@ -23,8 +23,22 @@
 ---
 ## STEP2 :two:
 
-### TODO LIST
-- [ ] Component
+### JSX
+
+Like as `const element = <h1>Hello, world!</h1>` , a syntax extension to javascript
+
+- can embed expression js code
+- after compilation , will became regular js object 
+- string attributes use quotes, js expression use curly braces, like as `const ele = <img src={user.avatarUrl} />`
+- must uses `camelCase` property naming convention instead of HTML attribute names
+
+### Element
+
+Element is smallest building blocks in React App, unlike normal browser DOM, element is a plain js object
+- element is immutable, there is only way to update UI that is call `ReactDOM.render()`, although maybe have mutiple calls, React only update what's necessary
+
+## TODO LIST
+- [x] Component
 - [ ] Props
 - [ ] State
 - [ ] ...
